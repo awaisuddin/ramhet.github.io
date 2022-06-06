@@ -1,0 +1,288 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 8px;
+        font-size: 16px;
+    }
+    .text-bg h1 {
+        font-size: 88px;
+        line-height: 100px;
+    }
+    .text-bg span {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .text-bg a {
+        font-size: 16px;
+        max-width: 185px;
+    }
+    .our_team h3 {
+        font-size: 23px;
+    }
+    .services_box h3 {
+        font-size: 16px;
+    }
+    .about_img {
+        margin-right: -10px;
+    }
+    .bottom_form .enter {
+        width: 60%;
+    }
+    .text-bg {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
+        font-size: 15px;
+    }
+    .banner_main {
+        min-height: 605px;
+    }
+    .text-bg {
+        padding-left: 0;
+    }
+    .text-bg h1 {
+        font-size: 70px;
+        line-height: 63px;
+        padding-bottom: 28px;
+    }
+    .text-bg span {
+        font-size: 34px;
+        line-height: 32px;
+    }
+    .text-bg a {
+        max-width: 155px;
+        font-size: 14px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+    }
+    .d_none {
+        display: none;
+    }
+    .services_box h3 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .our_team h3 {
+        font-size: 18px
+    }
+    .about_img {
+        margin-right: -18px;
+    }
+    ul.location_icon li {
+        font-size: 18px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sub_btn {
+        padding: 8px 0px;
+        margin-left: 0;
+    }
+    ul.social_icon li a {
+        width: 32px;
+        font-size: 19px;
+        margin: 0px 1px;
+        height: 32px;
+    }
+    .our_team span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .text-bg h1 {
+        font-size: 100px;
+        line-height: 75px;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 44px;
+    }
+    .banner_main {
+        padding-bottom: 50px;
+    }
+    #banner1 a.carousel-control-next,
+    #banner1 a.carousel-control-prev {
+        top: 102%;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .about_img {
+        margin-right: 0px;
+        padding-top: 30px;
+    }
+    .sub_btn {
+        max-width: 189px;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 12px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 64px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .margin_bottom1 {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg h1 {
+        font-size: 52px;
+        line-height: 40px;
+        ;
+    }
+    .banner_main {
+        padding-bottom: 70px;
+    }
+    #banner1 .carousel-control-next,
+    #banner1 .carousel-control-prev {
+        top: 105%;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .text-bg a {
+        max-width: 122px;
+        font-size: 11px;
+        margin-right: 1px;
+    }
+    .titlepage h2 {
+        font-size: 29px;
+        line-height: 44px;
+        ;
+    }
+    .titlepage h2::before {
+        width: 100px;
+    }
+    .profile_img::before {
+        right: 1px;
+    }
+    .testimonial_Carousel .test_box i {
+        top: 90px;
+    }
+    .about_img {
+        margin-right: 0px;
+        padding-top: 30px;
+    }
+    ul.location_icon li {
+        font-size: 20px;
+    }
+    .margin_bottom1 {
+        margin-bottom: 30px !important;
+    }
+    .services_box h3 {
+        float: inherit;
+    }
+    .services_box i {
+        float: inherit;
+        margin-bottom: 10px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about .about_img {
+        background: inherit;
+    }
+    .about .about_box {
+        padding: 0px 0px 30px 0px;
+    }
+    .about_box {
+        padding-top: 0;
+    }
+    .about .about_box h3 {
+        font-size: 21px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 67px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+}
